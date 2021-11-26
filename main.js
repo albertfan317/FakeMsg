@@ -5,7 +5,9 @@ liff.init({
 }).then(function() {
   console.log('LIFF init');
   
-  // 這邊開始寫使用其他功能
+  liff.login({ redirectUri: "https://localhost:3000" });
+
+  // 寄送訊息
   liff.sendMessages([
     {
       type: 'text',
