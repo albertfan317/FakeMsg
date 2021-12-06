@@ -12,22 +12,12 @@ liff.init({
   }
 
   // 寄送訊息
-  liff.sendMessages(
+  liff.sendMessages([
     {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "我是兔子",
-            "weight": "bold",
-            "size": "xl"
-          }
-        ]
-      }
-    })
+      type: "text",
+      text: "You've successfully sent a message! Hooray!",
+    },
+  ])
     .then(() => {
       console.log('message sent');
     })
