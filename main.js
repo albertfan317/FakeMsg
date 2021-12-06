@@ -12,7 +12,7 @@ liff.init({
   }
 
   // 寄送訊息
-  liff.sendMessages([
+  liff.sendMessages(
     {
       "type": "bubble",
       "body": {
@@ -23,14 +23,11 @@ liff.init({
             "type": "text",
             "text": "我是兔子",
             "weight": "bold",
-            "size": "lg",
-            "color": "#110088"
+            "size": "xl"
           }
         ]
       }
-    }
-  ])
-  
+    })
     .then(() => {
       console.log('message sent');
     })
