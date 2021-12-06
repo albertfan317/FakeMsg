@@ -10,7 +10,7 @@ liff.init({
   // 寄送訊息
   liff.sendMessages([
     {
-      type: 'text',
+      type: 'flex',
       text: '好喔'
     }
   ])
