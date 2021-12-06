@@ -6,7 +6,7 @@ liff.init({
   console.log('LIFF init');
 
   // 寄送訊息
-  liff.sendMessages([
+  liff.sendMessages(
     {
       "type": "bubble",
       "body": {
@@ -22,7 +22,7 @@ liff.init({
         ]
       }
     }
-  ]);
+  );
   
 }).catch(function(error) {
   console.log(error);
