@@ -15,7 +15,7 @@ liff.init({
   liff.sendMessages([{
 
       "type": "flex",
-      "altText": "我是兔子",
+      "altText": "flex message",
       "contents":
 
         {          
@@ -31,7 +31,7 @@ liff.init({
           ]
         }
         }
-        
+
     }])
   
 }).catch(function(error) {
