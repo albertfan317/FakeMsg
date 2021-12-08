@@ -6,30 +6,31 @@ liff.init({
   console.log('LIFF init');
 
   
-
+  if (liff.isInClient()){
   // 寄送訊息
-  liff.sendMessages([
-    {
-    "type": "flex",
-    "altText": "Flex Message",
-    "contents": 
-      
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "你好"
-          }
-        ]
+    liff.sendMessages([
+      {
+      "type": "flex",
+      "altText": "Flex Message",
+      "contents": 
+        
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "你好"
+            }
+          ]
+        }
       }
-    }
 
-    }
+      }
     ])
+  }
   
 }).catch(function(error) {
   console.log(error);
