@@ -5,6 +5,12 @@ liff.init({
 }).then(function() {
   console.log('LIFF init');
 
+  if(!isLoggedIn) {
+    liff.login({
+      redirectUri: 'https://albert0317.github.io/EliteJellyfish/'
+    });
+  }
+
   // 寄送訊息
   liff.sendMessages([
     {
