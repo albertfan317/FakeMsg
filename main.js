@@ -26,7 +26,7 @@ liff.init({
           "contents": [
             {
               "type": "text",
-              "text": "你好"
+              "text": "我是兔子"
             }
           ]
         }
