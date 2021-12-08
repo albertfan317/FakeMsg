@@ -13,11 +13,11 @@ liff.init({
 
   // 寄送訊息
   liff.sendMessages([{
-    
-      
+
       "type": "flex",
       "altText": "我是兔子",
-      "contents":[
+      "contents":
+
         {          
         "type": "bubble",
         "body": {
@@ -31,7 +31,7 @@ liff.init({
           ]
         }
         }
-      ]
+        
     }])
   
 }).catch(function(error) {
