@@ -8,21 +8,10 @@ liff.init({
   // 寄送訊息
   liff.sendMessages([
     {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "我是兔子",
-            "weight": "bold",
-            "size": "xl"
-          }
-        ]
-      } 
+      type: 'text',
+      text: 'Hello, World!'
     }
-  ]);
+  ])
   
 }).catch(function(error) {
   console.log(error);
