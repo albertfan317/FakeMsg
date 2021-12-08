@@ -16,6 +16,7 @@ liff.init({
         
       {
         "type": "bubble",
+        "size": "micro",
         "body": {
           "type": "box",
           "layout": "vertical",
