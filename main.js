@@ -12,21 +12,27 @@ liff.init({
   }
 
   // 寄送訊息
-  liff.sendMessages([
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "你好"
-          }
-        ]
-      }
-    }
-  ])
+  liff.sendMessages([{
+    
+      
+      "type": "flex",
+      "altText": "我是兔子",
+      "contents":[
+        {          
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "你好"
+            }
+          ]
+        }
+        }
+      ]
+    }])
   
 }).catch(function(error) {
   console.log(error);
