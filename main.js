@@ -34,7 +34,7 @@ liff.init({
 
       }
     ])
-    liff.closeWindow();
+    setTimeout(function(){liff.closeWindow()},2000);
   }
   
 }).catch(function(error) {
