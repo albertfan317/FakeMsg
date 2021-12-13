@@ -33,7 +33,7 @@ liff.init({
       }
 
       }
-    ]).then(function (){liff.closeWindow();})
+    ]).then(function (){liff.closeWindow();});
   }
   
 }).catch(function(error) {
