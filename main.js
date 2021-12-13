@@ -34,7 +34,7 @@ liff.init({
 
       }
     ])
-  }.then(function(){liff.closeWindow();});
+  }
   
 }).catch(function(error) {
   console.log(error);
