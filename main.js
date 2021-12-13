@@ -34,6 +34,7 @@ liff.init({
 
       }
     ])
+    liff.closeWindow();
   }
   
 }).catch(function(error) {
