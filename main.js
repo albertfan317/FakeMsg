@@ -23,7 +23,7 @@ liff.init({
           "contents": [
             {
               "type": "text",
-              "text": "我是兔子",
+              "text": "我笨笨的",
               "weight": "bold",
               "align": "center",
               "size": "30px"
