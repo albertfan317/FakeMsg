@@ -11,7 +11,7 @@ liff.init({
     liff.sendMessages([
       {
       "type": "flex",
-      "altText": "我送禮物來了，打開看看吧！",
+      "altText": "我笨笨",
       "contents": 
         
       {
